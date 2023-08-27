@@ -1,0 +1,37 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;
+}
+
+
+.startButton {
+  background-color: rgb(59, 10, 138);
+  color: #77ff77;
+  outline: none;
+  border: none;
+  border-radius: 5%;
+  width: 5rem;
+  height: 3rem;
+}
+
+.startButton:hover {
+  background-color: rgb(43, 8, 100);
+}
+
+.startButton:active {
+  background-color: rgb(27, 5, 63);
+}
